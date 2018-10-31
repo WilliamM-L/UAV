@@ -61,7 +61,7 @@ while(True):
     rectifiedRandom = rectifyList(random,userList,-1)
     rectifiedUserList = rectifyList(userList,random,-2)
     #print('rectifiedRandom is : ')
-    #print(rectifiedRandom) #random has changed for some reason
+        #print(rectifiedRandom) #random has changed for some reason
     bulls = findBulls(rectifiedRandom, rectifiedUserList)
     print(str(cows) +" Cow(s)")
     print(str(bulls) + " Bull(s)")                #prints none if there are zero of them!
